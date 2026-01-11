@@ -2,3 +2,11 @@ body {
     min-height: 100vh;
     background-image: radial-gradient(circle, #2b6168, #234d53, #1b3a3f, #13282b, #091719);
 }
+
+/* #navbar {
+    background-color: black;
+} */
+
+.icon {
+    color: white;
+}
