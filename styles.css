@@ -6,6 +6,9 @@ body {
 /* #navbar {
     background-color: black;
 } */
+h1 {
+    font-family: "Playfair Display", serif;
+}
 
 .icon {
     color: white;
