@@ -10,3 +10,21 @@ body {
 .icon {
     color: white;
 }
+
+.hero {
+    background-image: linear-gradient(to right bottom, #6b8686, #698988, #688d8a, #66908c, #65938d);
+}
+
+.my-name {
+    color: #18391a;
+}
+
+.btn-resume {
+    background-color: #1b3a3f;
+    color: white;
+}
+
+.btn-resume:hover {
+    background-color: white;
+    color: #1b3a3f;
+}
