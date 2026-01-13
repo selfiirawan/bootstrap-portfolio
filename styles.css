@@ -10,6 +10,10 @@ h1 {
     font-family: "Playfair Display", serif;
 }
 
+.section-title {
+    font-size: 2.5rem;
+}
+
 .icon {
     color: white;
 }
@@ -36,6 +40,43 @@ h1 {
     text-align: justify;
 }
 
-.bg-skill {
-    background-image: linear-gradient(to bottom, #354646, #3b4a4a, #404e4d, #465351, #4c5755);
+.card-bg {
+    background-image: radial-gradient(circle, #2b6168, #234d53, #1b3a3f, #13282b, #091719);
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.profile-img {
+    max-height: 450px;
+    object-fit: cover;
+}
+
+.card-hover {
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.img-wrapper {
+  overflow: hidden;
+}
+
+.card-hover:hover {
+  transform: translateY(-6px);
+}
+
+.card {
+    border: 3px solid black;
+} 
+
+@media (max-width: 576px) {
+    .profile-img {
+        max-height: 300px;
+    }
+
+    .role-name {
+        font-size: 1.7em;
+    }
 }
