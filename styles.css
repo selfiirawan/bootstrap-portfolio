@@ -10,6 +10,15 @@ h1 {
     font-family: "Playfair Display", serif;
 }
 
+.nav-link {
+  border-radius: 20px;
+}
+
+.nav-link:hover {
+  color: #000 !important;
+  background-color: #f8f9fa;
+}
+
 .section-title {
     font-size: 2.5rem;
 }
