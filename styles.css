@@ -27,8 +27,13 @@ h1 {
     color: white;
 }
 
-.hero {
+.hero, .btn-form {
     background-image: linear-gradient(to right bottom, #6b8686, #698988, #688d8a, #66908c, #65938d);
+}
+
+.btn-form:hover {
+    background-image: linear-gradient(to right bottom, #65938d, #66908c, #688d8a, #698988, #6b8686);
+    color: white;
 }
 
 .my-name {
